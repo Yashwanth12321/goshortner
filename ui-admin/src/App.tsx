@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import AdminPanel from './AdminPanel.jsx'
 
@@ -9,9 +8,9 @@ function App() {
       <div>
         <AdminPanel />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <footer className="footer">
+        goshortner - A URL Shortener
+      </footer>
     </>
   )
 }
